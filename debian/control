@@ -1,0 +1,15 @@
+Source: elastic-mapreduce-ruby-cli
+Section: unknown
+Priority: extra
+Maintainer: Matt Joiner <anacrolix@gmail.com>
+Build-Depends: debhelper
+Standards-Version: 3.9.2
+Homepage: https://github.com/tc/elastic-mapreduce-ruby
+#Vcs-Git: git://git.debian.org/collab-maint/elastic-mapreduce-ruby-cli.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/elastic-mapreduce-ruby-cli.git;a=summary
+
+Package: elastic-mapreduce-ruby-cli
+Architecture: all
+Depends: ${misc:Depends}, ruby
+Description: The elastic-mapreduce ruby CLI
+ <insert long description, indented with spaces>
